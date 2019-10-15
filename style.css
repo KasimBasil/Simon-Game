@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+}
+
+footer p {
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8rem;
+    color: #dadada;
+}
+
+div p {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+img {
+    right: 430px;
+    position: relative;
+    cursor: pointer;
+}
+
+img:hover {
+    border-radius: 100px;
+    box-shadow: 0 0 0 2px #dadada;
+    background-color: black;
+}
+
+footer {
+    padding-bottom: 20px;
+    ;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 3%;
+    color: #FEF2BF;
+    line-height: 1.5;
+}
+
+.containerx {
+    display: block;
+    width: 50%;
+    margin: auto;
+
+}
+
+.bttnxx {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-instructions {
+    display: none;
+}
+
+
+@media (max-width: 1025px) {
+    .bttnxx {
+        margin: 10px;
+        height: 150px;
+        width: 150px;
+        border: 8px solid black;
+    }
+
+    #level-title {
+        font-size: 2rem
+    }
+
+    footer p {
+        display: block;
+        margin: 10px
+    }
+
+    img {
+        position: relative;
+        right: -3px;
+        width: 10%;
+    }
+}
+
+
